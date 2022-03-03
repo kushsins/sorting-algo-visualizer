@@ -6,7 +6,7 @@ Sorting Algo Visualizer visualizes several different Sorting Algorithm such as B
 
 Building this app helped me get familiar with React, Java Script, HTML, CSS.
 
-Dont forget to leave your feedback.
+Don't forget to leave your feedback.
 
 ## The app also suppots
 
@@ -14,7 +14,7 @@ Dont forget to leave your feedback.
 - Mobile devices (responsive)
 - Dark Mode
 
-# This app was built using
+## This app was built using
 
 - [ReactJS](https://reactjs.org/)
 - JavaScript
