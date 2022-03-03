@@ -1,6 +1,6 @@
 # Sorting Algo Visualizer
 
-[![Sorting Algo Visualizer in action](heapSort.gif)](xenodochial-austin-b49401.netlify.app/)
+[![Sorting Algo Visualizer in action](heapSort.gif)](https://xenodochial-austin-b49401.netlify.app/)
 
 Sorting Algo Visualizer visualizes several different Sorting Algorithm such as Bubble Sort, HeapSort, Merge Sort etc.
 
