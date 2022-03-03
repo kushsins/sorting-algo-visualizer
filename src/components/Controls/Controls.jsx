@@ -6,7 +6,6 @@ import { RiMoonClearLine, RiSunLine } from "react-icons/ri";
 import { IoPlayOutline, IoPauseOutline } from "react-icons/io5";
 import { MdReplay } from "react-icons/md";
 import { AlgoState, VisualizerState } from "../../helpers/StateManagement";
-import { isDisabled } from "@testing-library/user-event/dist/utils";
 
 const Controls = () => {
   const {
@@ -117,7 +116,6 @@ const Controls = () => {
             placeholder="Select a option and change input text above"
             disabled={isDisabled}
             onChange={onAlgoChange}
-            allowClear
           >
             <Option value="BubbleSort">Bubble Sort</Option>
             <Option value="HeapSort">Heap Sort</Option>

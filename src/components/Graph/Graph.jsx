@@ -1,4 +1,4 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext } from "react";
 import "./Graph.css";
 import Bars from "../Bars/Bars";
 import { VisualizerState } from "../../helpers/StateManagement";

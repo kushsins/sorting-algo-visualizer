@@ -5,7 +5,6 @@ const HeapSort = (nums) => {
   // Helper functions to quickly access nodes
   const left = (i) => 2 * i + 1;
   const right = (i) => 2 * i + 2;
-  const parent = (i) => Math.floor((i - 1) / 2);
 
   const maxHeapify = (array, i, heapsize) => {
     const leftChild = left(i);
