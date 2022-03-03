@@ -1,0 +1,132 @@
+.sorter-controls {
+  display: flex;
+  flex: 3;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.icon-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.controls-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 1.8em;
+}
+
+.mode-btn {
+  color: #31d9d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mode-btn-size {
+  width: 48px;
+  height: 48px;
+}
+
+.mode-btn-dark {
+  border: 2px solid #fff;
+}
+
+.mode-btn-light {
+  border: 2px solid #000;
+}
+
+.mode-btn:hover {
+  color: #31d9d9;
+  background-color: black;
+}
+.mode-btn-dark:hover {
+  color: #31d9d9;
+  background-color: white;
+}
+
+.input-controls {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 1% 2%;
+}
+
+.slider-container {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.control-heading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.slider {
+  flex: 1;
+  margin: 0%;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .mode-btn-size {
+    width: 52px;
+    height: 52px;
+  }
+  .control-heading {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  .icon {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .mode-btn-size {
+    width: 64px;
+    height: 64px;
+  }
+  .control-heading {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  .icon {
+    font-size: 2.5em;
+  }
+}

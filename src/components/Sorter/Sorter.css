@@ -1,0 +1,13 @@
+.sorter {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .sorter {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+  }
+}

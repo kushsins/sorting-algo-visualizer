@@ -1,0 +1,176 @@
+.discription {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4%;
+}
+
+.heading {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.dis-text {
+  margin-top: 2%;
+  font-size: 1.2em;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  color: #8f8f8f;
+}
+
+.dis-table {
+  margin-top: 2%;
+  font-size: 1em;
+  color: #8f8f8f;
+  font-weight: 400;
+  border-collapse: separate;
+  border-spacing: 0 0.7em;
+}
+
+.space {
+  color: #8f8f8f;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.table-heading {
+  color: black;
+  font-weight: 500;
+}
+.table-heading-dark {
+  color: white;
+  font-weight: 500;
+}
+
+.table-heading-size {
+  font-size: 1em;
+}
+
+/* tablet */
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+  .discription {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10% 0 0;
+  }
+
+  .heading {
+    font-size: 4em;
+    font-weight: 500;
+  }
+
+  .dis-text {
+    margin-top: 20%;
+    font-size: 2em;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    color: #8f8f8f;
+  }
+
+  .dis-table {
+    margin-top: 20%;
+    font-size: 1.4em;
+    color: #8f8f8f;
+    font-weight: 400;
+    border-collapse: separate;
+    border-spacing: 0 0.7em;
+  }
+
+  .table-heading-size {
+    font-size: 1em;
+  }
+
+  .space {
+    color: #8f8f8f;
+    font-size: 1em;
+    font-weight: 400;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .discription {
+    flex: 1;
+    padding: 0 5% 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 4em;
+    font-weight: 500;
+  }
+
+  .dis-text {
+    margin-top: 20%;
+    font-size: 2em;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    color: #8f8f8f;
+  }
+
+  .dis-table {
+    margin-top: 20%;
+    font-size: 1.5em;
+    color: #8f8f8f;
+    font-weight: 400;
+    border-collapse: separate;
+    border-spacing: 0 0.7em;
+  }
+
+  .table-heading-size {
+    font-size: 1em;
+  }
+
+  .space {
+    color: #8f8f8f;
+    font-size: 1em;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .discription {
+    flex: 1;
+    padding: 0 5% 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 4.2em;
+    font-weight: 500;
+  }
+
+  .dis-text {
+    margin-top: 15%;
+    font-size: 2em;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    color: #8f8f8f;
+  }
+
+  .dis-table {
+    margin-top: 15%;
+    font-size: 1.7em;
+    color: #8f8f8f;
+    font-weight: 400;
+    border-collapse: separate;
+    border-spacing: 0 0.7em;
+  }
+
+  .table-heading-size {
+    font-size: 1em;
+  }
+
+  .space {
+    color: #8f8f8f;
+    font-size: 1em;
+    font-weight: 400;
+  }
+}

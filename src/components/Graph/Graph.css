@@ -1,0 +1,13 @@
+.sorter-graph {
+  height: 100%;
+  width: 100%;
+  flex: 7;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}

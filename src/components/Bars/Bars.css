@@ -1,0 +1,23 @@
+.bar {
+  transition: 100ms ease-in-out;
+  background-color: #31d9d9;
+}
+
+.red {
+  background-color: #ffadad;
+  /* background-color: #a63d40; */
+}
+
+.green {
+  background-color: #96eb84;
+  /* background-color: #90a959; */
+}
+
+.yellow {
+  background-color: #f7c548;
+  /* background-color: #e9b872; */
+}
+
+.purple {
+  background-color: #e396df;
+}
